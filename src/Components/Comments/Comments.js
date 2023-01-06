@@ -15,13 +15,13 @@ function Comments() {
     const [comment,setComment]=useState([]);
     const [refresh,setRefresh]=useState(false)
 useEffect(()=>{
-    Axios.get(`https://instagram-client-ten.vercel.app/comments/${post._id}`)
+    Axios.get(`https://instagram-server-nine.vercel.app/comments/${post._id}`)
     .then(res=>setComment(res.data))
     .catch(e=>console.log(e))
 },[refresh])
 
     function handleComment(){
-        Axios.post('https://instagram-client-ten.vercel.app/comments',{
+        Axios.post('https://instagram-server-nine.vercel.app/comments',{
             username:localStorage.getItem('name'),
             userid:localStorage.getItem('id'),
             comments:addcomment,

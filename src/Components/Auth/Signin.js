@@ -17,7 +17,7 @@ function Signin() {
   function onSubmit() {
     const { email, password } = details;
     axios
-      .post("https://instagram-client-ten.vercel.app/api/user/signin", {
+      .post("https://instagram-server-nine.vercel.app/api/user/signin", {
         email: email,
         password: password,
       })

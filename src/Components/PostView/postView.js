@@ -19,7 +19,7 @@ function PostView(){
   const navigate=useNavigate();
   useEffect(() => {
     const getComments = async () => {
-      const res = await fetch(`https://instagram-client-ten.vercel.app/post/?skip=${skip}`);
+      const res = await fetch(`https://instagram-server-nine.vercel.app/post/?skip=${skip}`);
       const data = await res.json();
       setItems(data);
     };
@@ -28,7 +28,7 @@ function PostView(){
   }, []);
 
   const fetchComments = async () => {
-    const res = await fetch(`https://instagram-client-ten.vercel.app/post/?skip=${skip}`);
+    const res = await fetch(`https://instagram-server-nine.vercel.app/post/?skip=${skip}`);
     const data = await res.json();
     return data;
   };
