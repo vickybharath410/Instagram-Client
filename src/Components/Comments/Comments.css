@@ -1,0 +1,47 @@
+.comment-container{
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
+}
+.c-input{
+    width: 350px;
+    height: 50px;
+    border: 10px solid palevioletred;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.c-input::placeholder{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.c-btn{
+    width: 200px;   
+    height: 65px;
+    background-color: rgb(242, 80, 134);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    border: none;
+}
+.username{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkblue;
+    margin: 0 15px 0 15px;
+}
+.box-comments{
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 353px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(240, 196, 211);
+    display: flex;
+    align-items: center;
+}
+.usercomments{
+    font-size: 1.4rem;
+    color: rgb(18, 16, 1);
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+.authpart{
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(245, 89, 167);
+    align-items: center;
+    justify-content: center;
+
+}
+.loginpath{
+    font-size: 2rem;
+   
+}
+.loginpage{
+    margin-bottom: 25px;
+    width: 450px;
+    background-color: rgb(229, 124, 177);
+    border-radius: 15px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.signup{
+    width: 550px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 90px;
+    height: 70px;
+    border-radius: 15px;
+  
+   
+}
+.error{
+    color: red;
+    font-size: medium;
+    font-weight: bolder;
+}
+.authinput{
+    font-size: 1rem;
+    text-align: center;
+    width: 70%;
+    background-color: rgb(164, 89, 211);
+    height: 40px;
+   
+ 
+}
+.register{
+    width: 71%;
+    height: 52px;
+    font-size: 1.5rem;
+   font-weight: bolder;
+    color: whitesmoke;
+    background-color: rgb(164, 89, 211);
+   
+}

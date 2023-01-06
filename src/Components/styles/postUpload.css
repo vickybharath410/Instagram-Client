@@ -1,0 +1,66 @@
+.form-control{
+    margin-top: 8rem;
+    border-radius: 1rem;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 0 20px black;
+    background-image: orange(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+}
+
+form{
+    width: 400px;
+}
+input{
+    height: 25px;
+    border: none;
+    outline: none;
+    
+
+    background-image:yellow(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+}
+::placeholder { 
+    color:black;
+    opacity: 1; 
+  }
+.author-info{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.author-info input{
+ width: 100px;
+}
+#description{
+    width:100%;
+    
+box-sizing: border-box;
+}
+.post-btn{
+            
+   
+        background-image: yellow(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+        margin: 10px;
+        padding: 10px 40px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: rgb(119, 60, 60);            
+        box-shadow: 0 0 20px rgb(225, 117, 117);
+        border-radius: 10px;
+        display: block;
+        margin-left: 30%;
+    
+}
+.post-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: rgb(232, 154, 85);
+    text-decoration: none;
+  }
+           
+           
