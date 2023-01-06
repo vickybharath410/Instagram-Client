@@ -22,7 +22,7 @@ function Signup() {
   function onSubmit() {
     const { name, email, password } = details;
     axios
-      .post("http://localhost:4000/api/user/signup", {
+      .post("https://instagram-client-ten.vercel.app/api/user/signup", {
         name: name,
         email: email,
         password: password,

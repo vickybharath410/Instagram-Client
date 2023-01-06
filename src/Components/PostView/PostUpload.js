@@ -12,7 +12,7 @@ function PostUpload(){
   const submithandler = (e) => {
     e.preventDefault()
     console.log(image)
-    Axios.post("http://localhost:4000/post/upload", {
+    Axios.post("https://instagram-client-ten.vercel.app/post/upload", {
       name: user.username,
       location: user.location,
       imageUrl: image,
