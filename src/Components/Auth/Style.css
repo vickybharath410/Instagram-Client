@@ -25,13 +25,16 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .signup{
-    width: 550px;
-    height: 700px;
+    width: 450px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgb(229, 124, 177);
     flex-direction: column;
     margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .logo{
     width: 90px;
